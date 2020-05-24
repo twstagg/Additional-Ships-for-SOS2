@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_AsteroidChunkLeft</defName>
+		<label>captured asteroid chunk</label>
+		<description>This asteroid has been moved from its natural orbit and stabilized with chemical rockets into a new one. It makes for a very clunky spaceship, and needless to say too massive to support interplanetary travel of any kind.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_AsteroidChunk</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(5,12)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
+		<costList>
+			<BlocksGranite>50</BlocksGranite>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(5,12)</size>	
+	</ThingDef>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_AsteroidChunkDown</defName>
+		<label>captured asteroid chunk</label>
+		<description>This asteroid has been moved from its natural orbit and stabilized with chemical rockets into a new one. It makes for a very clunky spaceship, and needless to say too massive to support interplanetary travel of any kind.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_AsteroidChunkDown</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(12,5)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
+		<costList>
+			<BlocksGranite>75</BlocksGranite>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(12,5)</size>	
+	</ThingDef>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_AsteroidChunkReactor</defName>
+		<label>captured asteroid chunk</label>
+		<description>This asteroid has been moved from its natural orbit and stabilized with chemical rockets into a new one. It makes for a very clunky spaceship, and needless to say too massive to support interplanetary travel of any kind.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_AsteroidChunkReactor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(13,15)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
+		<costList>
+			<BlocksGranite>100</BlocksGranite>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(13,15)</size>	
+	</ThingDef>
+	
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_AsteroidChunkBigTop</defName>
+		<label>captured asteroid chunk</label>
+		<description>This asteroid has been moved from its natural orbit and stabilized with chemical rockets into a new one. It makes for a very clunky spaceship, and needless to say too massive to support interplanetary travel of any kind.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_AsteroidChunkBigTop</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(12,12)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
+		<costList>
+			<BlocksGranite>50</BlocksGranite>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(12,4)</size>	
+	</ThingDef>
+	
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_AsteroidChunkBigSide</defName>
+		<label>captured asteroid chunk</label>
+		<description>This asteroid has been moved from its natural orbit and stabilized with chemical rockets into a new one. It makes for a very clunky spaceship, and needless to say too massive to support interplanetary travel of any kind.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_AsteroidChunkBigSide</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(13,13)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
+		<costList>
+			<BlocksGranite>50</BlocksGranite>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(2,13)</size>	
+	</ThingDef>
+	
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_AsteroidChunkBigBottom</defName>
+		<label>captured asteroid chunk</label>
+		<description>This asteroid has been moved from its natural orbit and stabilized with chemical rockets into a new one. It makes for a very clunky spaceship, and needless to say too massive to support interplanetary travel of any kind.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_AsteroidChunkBigBottom</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(12,12)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
+		<costList>
+			<BlocksGranite>100</BlocksGranite>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(12,4)</size>	
+	</ThingDef>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_AsteroidChunkBigReactors</defName>
+		<label>captured asteroid chunk</label>
+		<description>This asteroid has been moved from its natural orbit and stabilized with chemical rockets into a new one. It makes for a very clunky spaceship, and needless to say too massive to support interplanetary travel of any kind.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_AsteroidChunkBigReactors</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(13,13)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
+		<costList>
+			<Steel>70</Steel>
+			<BlocksGranite>25</BlocksGranite>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(3,13)</size>	
+	</ThingDef>
+	
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_HugeAsteroidTop</defName>
+		<label>huge asteroid chunk, top</label>
+		<description>This asteroid has been moved from its natural orbit and stabilized with chemical rockets into a new one. It makes for a very clunky spaceship, and needless to say too massive to support interplanetary travel of any kind.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_HugeAsteroidTop</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(28,28)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
+		<costList>
+			
+			<BlocksGranite>100</BlocksGranite>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(28,9)</size>	
+	</ThingDef>
+	
+		<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_HugeAsteroidBottom</defName>
+		<label>huge asteroid chunk, bottom</label>
+		<description>This asteroid has been moved from its natural orbit and stabilized with chemical rockets into a new one. It makes for a very clunky spaceship, and needless to say too massive to support interplanetary travel of any kind.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_HugeAsteroidBottom</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(28,28)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
+		<costList>
+			
+			<BlocksGranite>100</BlocksGranite>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(28,3)</size>	
+	</ThingDef>
+	
+			<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_HugeAsteroidLeft</defName>
+		<label>huge asteroid chunk, left</label>
+		<description>This asteroid has been moved from its natural orbit and stabilized with chemical rockets into a new one. It makes for a very clunky spaceship, and needless to say too massive to support interplanetary travel of any kind.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_HugeAsteroidLeft</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(15,15)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
+		<costList>
+			
+			<BlocksGranite>75</BlocksGranite>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(3,15)</size>	
+	</ThingDef>
+	
+				<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_HugeAsteroidRight</defName>
+		<label>huge asteroid chunk, right</label>
+		<description>This asteroid has been moved from its natural orbit and stabilized with chemical rockets into a new one. It makes for a very clunky spaceship, and needless to say too massive to support interplanetary travel of any kind.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_HugeAsteroidRight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(15,15)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
+		<costList>
+			
+			<BlocksGranite>75</BlocksGranite>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(9,15)</size>	
+	</ThingDef>
+	
+</Defs>

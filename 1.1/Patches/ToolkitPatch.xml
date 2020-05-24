@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Save Our Ship Construction Kit</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+
+			<!-- Organ installing recipes == should be most animals -->
+			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallBionicAnimalStomach surgery <recipeUsers>" -->
+				<xpath>/Defs/ThingDef[@Name = "AS_ShipPartBase"]</xpath>
+				<value>
+
+					 <designationCategory>ShipDesign</designationCategory>
+					
+		
+				</value>
+			</li>
+
+			
+
+
+
+		</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+
