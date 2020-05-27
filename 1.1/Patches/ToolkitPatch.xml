@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Save Our Ship Construction Kit</li>
+			<li>Save Our Ship Creation Kit</li>
 		</mods>
 
 		<match Class="PatchOperationSequence">
