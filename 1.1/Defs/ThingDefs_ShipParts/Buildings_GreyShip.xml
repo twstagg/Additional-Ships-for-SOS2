@@ -21,9 +21,9 @@
 		<uiIconScale>0.5</uiIconScale>  
 		<size>(7,6)</size>	
 	</ThingDef>
-	
-	
-		<ThingDef ParentName="AS_ShipPartBase">
+
+
+	<ThingDef ParentName="AS_ShipPartBase">
 		<defName>AS_GreyShipChunkTopPointy</defName>
 		<label>pirate ship, top large</label>
 		<description>Pirate ships often prey on unsuspecting convoy and trade ships. Fast and agile, they are not designed for prolonged combat, but for hit and run assaults.</description>		
@@ -41,12 +41,12 @@
 		<uiIconScale>0.5</uiIconScale>  
 		<size>(9,17)</size>	
 	</ThingDef>
-	
+
 	<ThingDef ParentName="AS_ShipPartBase">
 		<defName>AS_GreyShipChukWingAlternateLeft</defName>
 		<label>pirate ship, large wing left</label>
-				<description>Pirate ships often prey on unsuspecting convoy and trade ships. Fast and agile, they are not designed for prolonged combat, but for hit and run assaults.</description>		
-		
+		<description>Pirate ships often prey on unsuspecting convoy and trade ships. Fast and agile, they are not designed for prolonged combat, but for hit and run assaults.</description>		
+
 		<graphicData>
 			<texPath>Things/Building/AS_GreyShipChukWingAlternateLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -64,8 +64,8 @@
 	<ThingDef ParentName="AS_ShipPartBase">
 		<defName>AS_GreyShipChukWingAlternateRight</defName>
 		<label>pirate ship, large wing right</label>
-				<description>Pirate ships often prey on unsuspecting convoy and trade ships. Fast and agile, they are not designed for prolonged combat, but for hit and run assaults.</description>		
-		
+		<description>Pirate ships often prey on unsuspecting convoy and trade ships. Fast and agile, they are not designed for prolonged combat, but for hit and run assaults.</description>		
+
 		<graphicData>
 			<texPath>Things/Building/AS_GreyShipChukWingAlternateRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -80,12 +80,12 @@
 		<uiIconScale>0.5</uiIconScale>  
 		<size>(8,22)</size>	
 	</ThingDef>
-	
-		<ThingDef ParentName="AS_ShipPartBase">
+
+	<ThingDef ParentName="AS_ShipPartBase">
 		<defName>AS_GreyShipChukWingLeft</defName>
 		<label>pirate ship, wing left</label>
-				<description>Pirate ships often prey on unsuspecting convoy and trade ships. Fast and agile, they are not designed for prolonged combat, but for hit and run assaults.</description>		
-		
+		<description>Pirate ships often prey on unsuspecting convoy and trade ships. Fast and agile, they are not designed for prolonged combat, but for hit and run assaults.</description>		
+
 		<graphicData>
 			<texPath>Things/Building/AS_GreyShipChukWingLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -103,8 +103,8 @@
 	<ThingDef ParentName="AS_ShipPartBase">
 		<defName>AS_GreyShipChukWingRight</defName>
 		<label>pirate ship, wing right</label>
-				<description>Pirate ships often prey on unsuspecting convoy and trade ships. Fast and agile, they are not designed for prolonged combat, but for hit and run assaults.</description>		
-		
+		<description>Pirate ships often prey on unsuspecting convoy and trade ships. Fast and agile, they are not designed for prolonged combat, but for hit and run assaults.</description>		
+
 		<graphicData>
 			<texPath>Things/Building/AS_GreyShipChukWingRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -119,15 +119,15 @@
 		<uiIconScale>0.5</uiIconScale>  
 		<size>(8,22)</size>	
 	</ThingDef>
-	
 
-	
+
+
 
 	<ThingDef ParentName="AS_ShipPartBase">
 		<defName>AS_GreyShipChunkBottom</defName>
 		<label>pirate ship, bottom</label>
-						<description>Pirate ships often prey on unsuspecting convoy and trade ships. Fast and agile, they are not designed for prolonged combat, but for hit and run assaults.</description>		
-	
+		<description>Pirate ships often prey on unsuspecting convoy and trade ships. Fast and agile, they are not designed for prolonged combat, but for hit and run assaults.</description>		
+
 		<graphicData>
 			<texPath>Things/Building/AS_GreyShipChunkBottom</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -146,8 +146,8 @@
 	<ThingDef ParentName="AS_ShipPartBase">
 		<defName>AS_GreyShipChunkSideLeft</defName>
 		<label>pirate ship, side left</label>
-								<description>Pirate ships often prey on unsuspecting convoy and trade ships. Fast and agile, they are not designed for prolonged combat, but for hit and run assaults.</description>		
-	
+		<description>Pirate ships often prey on unsuspecting convoy and trade ships. Fast and agile, they are not designed for prolonged combat, but for hit and run assaults.</description>		
+
 		<graphicData>
 			<texPath>Things/Building/AS_GreyShipChunkSideLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -166,8 +166,8 @@
 	<ThingDef ParentName="AS_ShipPartBase">
 		<defName>AS_GreyShipChunkSideRight</defName>
 		<label>pirate ship, side right</label>
-								<description>Pirate ships often prey on unsuspecting convoy and trade ships. Fast and agile, they are not designed for prolonged combat, but for hit and run assaults.</description>		
-	
+		<description>Pirate ships often prey on unsuspecting convoy and trade ships. Fast and agile, they are not designed for prolonged combat, but for hit and run assaults.</description>		
+
 		<graphicData>
 			<texPath>Things/Building/AS_GreyShipChunkSideRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

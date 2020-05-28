@@ -20,6 +20,16 @@
 		
 				</value>
 			</li>
+			
+			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallBionicAnimalStomach surgery <recipeUsers>" -->
+				<xpath>/Defs/TerrainDef[defName = "AS_BlackRegolith"]</xpath>
+				<value>
+
+					 <designationCategory>ShipDesign</designationCategory>
+					
+		
+				</value>
+			</li>
 
 			
 

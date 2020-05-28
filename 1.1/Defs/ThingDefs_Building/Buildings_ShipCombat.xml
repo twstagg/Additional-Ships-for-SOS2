@@ -144,5 +144,60 @@
     <combatLogRules>Damage_Bomb</combatLogRules>
   </DamageDef>
   
+    <ThingDef ParentName="BuildingBase">
+    <defName>AS_ArchotechHeatsink</defName>
+    <label>vanometric heatsink</label>
+    <description>A mechanoid heatsink for storing excess heat from weapons fire. Quickly bleeds heat into the surrounding room; will not function in vacuum.</description>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+   
+    <graphicData>
+      <texPath>Things/Building/AS_ArchotechHeatsink</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <building>
+    </building>
+	<size>(3,3)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.8</fillPercent>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>1200</MaxHitPoints>
+      <WorkToBuild>3500</WorkToBuild>
+      <Flammability>0.7</Flammability>
+      <Beauty>-2</Beauty>
+    </statBases>
+    <costList>
+      <Steel>100</Steel>
+	  <Plasteel>25</Plasteel>
+	  <ComponentSpacer>2</ComponentSpacer>
+	  <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_ShipHeat">
+        <compClass>CompShipHeatSink</compClass>
+		<heatCapacity>120</heatCapacity>
+		<heatVentTick>200</heatVentTick>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTransmitter</compClass>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+  
+    <constructEffect>ConstructMetal</constructEffect>
+    <tickerType>Normal</tickerType>
+   
+  </ThingDef>
+  
  
 </Defs>
