@@ -4,7 +4,7 @@
   <ThingDef ParentName="BaseShipArtilleryBuilding">
     <defName>AS_ShipTurret_Bio</defName>
     <label>bio turret</label>
-    <description>A starship turret that fires a powerful laser. While it can inflict devastating damage, it is only usable at short range. Can be set to intercept torpedoes rather than firing on the enemy ship.\n\nWill vent heat to the surrounding room if no heatsink capacity is available.</description>
+    <description>A starship turret that fires a dangerous bio-engineered capsule. While it isn't very damaging to artificial structures, it will quickly poison and corrupt any organic matter it touches.\n\nWill vent heat to the surrounding room if no heatsink capacity is available.</description>
     <graphicData>
       <texPath>Things/Building/AS_HardpointPurple</texPath>
     </graphicData>
@@ -48,8 +48,8 @@
   
   <ThingDef ParentName="BaseShipArtilleryWeapon">
     <defName>AS_ShipTurret_BioTop</defName>
-    <label>bio</label>
-    <description>Laser cannon. Short-ranged but devastating.</description>
+    <label>bio cannon</label>
+    <description>Bio cannon. Fires a dangerous bio-engineered capsule.</description>
     <graphicData>
       <texPath>Things/Building/AS_TurretBio</texPath>
     </graphicData>
@@ -69,8 +69,8 @@
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
-        <defaultProjectile>Bullet_Fake_Laser</defaultProjectile>
-        <spawnDef>Proj_ShipTurretLaser</spawnDef>
+        <defaultProjectile>AS_Bullet_Fake_Bio</defaultProjectile>
+        <spawnDef>AS_Proj_ShipTurretBio</spawnDef>
         <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
       </li>
     </verbs>
@@ -81,12 +81,13 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseBullet">
-    <defName>AS_Bullet_Fake_Laser</defName>
-    <label>laser beam</label>
+    <defName>AS_Bullet_Fake_Bio</defName>
+    <label>bio capsule</label>
     <graphicData>
-      <texPath>Things/Building/Ship/HullPlateTransparent</texPath>
+      <texPath>Things/Projectile/AS_BioProjectile</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
+	  <drawSize>(2,2)</drawSize>
     </graphicData>
     <thingClass>Bullet</thingClass>
     <projectile>
@@ -102,102 +103,68 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseGrenadeProjectile">
-    <defName>AS_Proj_ShipTurretLaser</defName>
-    <label>laser beam</label>
-    <thingClass>Projectile_ExplosiveShipCombatLaser</thingClass>
+    <defName>AS_Proj_ShipTurretBio</defName>
+    <label>bio capsule</label>
+    <thingClass>Projectile_ExplosiveShipCombat</thingClass>
     <graphicData>
-      <texPath>Things/Building/Ship/HullPlateTransparent</texPath>
+      <texPath>Things/Projectile/AS_BioProjectile</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
+	  <drawSize>(2,2)</drawSize>
     </graphicData>
     <projectile>
-      <explosionRadius>1.9</explosionRadius>
-      <damageDef>ShipLaserSmall</damageDef>
-      <speed>200</speed>
+      <explosionRadius>6.9</explosionRadius>
+      <damageDef>AS_ShipBioSmall</damageDef>
+      <speed>100</speed>
     </projectile>
   </ThingDef>
   
-  <DamageDef Name="ShipLaserSmall">
-    <defName>AS_ShipLaserSmall</defName>
-    <label>laser</label>
+<DamageDef Name="AS_ShipBioSmall">
+    <defName>AS_ShipBioSmall</defName>
+    <label>bio</label>
     <workerClass>DamageWorker_AddInjury</workerClass>
     <externalViolence>true</externalViolence>
     <isExplosive>true</isExplosive>
-    <deathMessage>{0} has been lasered to death.</deathMessage>
+    <deathMessage>{0} has been corroded by a toxic bio-weapon.</deathMessage>
     <hediff>Burn</hediff>
     <hediffSolid>Burn</hediffSolid>
+	<additionalHediffs>
+			<li>
+				<hediff>ToxicBuildup</hediff>
+				<severityPerDamageDealt>0.04</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+			</li>
+		</additionalHediffs>
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
     <impactSoundType>Blunt</impactSoundType>
     <armorCategory>Heat</armorCategory>
     <minDamageToFragment>15</minDamageToFragment>
-    <defaultDamage>20</defaultDamage>
+    <defaultDamage>1</defaultDamage>
     <defaultStoppingPower>0.5</defaultStoppingPower>
     <defaultArmorPenetration>0.10</defaultArmorPenetration>
     <buildingDamageFactor>4</buildingDamageFactor>
     <plantDamageFactor>4</plantDamageFactor>
     <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
     <explosionHeatEnergyPerCell>25</explosionHeatEnergyPerCell>
-    <explosionCellMote>Mote_BlastLaserSoS</explosionCellMote>
+    <explosionCellMote>AS_Mote_BlastBio</explosionCellMote>
     <explosionColorCenter>(1, 0.5, 0.3)</explosionColorCenter>
     <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
     <soundExplosion>Explosion_Bomb</soundExplosion>
     <combatLogRules>Damage_Bomb</combatLogRules>
   </DamageDef>
   
-    <ThingDef ParentName="BuildingBase">
-    <defName>AS_ArchotechHeatsink</defName>
-    <label>vanometric heatsink</label>
-    <description>A mechanoid heatsink for storing excess heat from weapons fire. Quickly bleeds heat into the surrounding room; will not function in vacuum.</description>
-    <thingClass>Building</thingClass>
-    <category>Building</category>
-   
+    <ThingDef ParentName="MoteBase">
+    <defName>AS_Mote_BlastBio</defName>
     <graphicData>
-      <texPath>Things/Building/AS_ArchotechHeatsink</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3,3)</drawSize>
+      <texPath>Things/Mote/AS_BioBlast</texPath>
+      <shaderType>TransparentPostLight</shaderType>
     </graphicData>
-    <building>
-    </building>
-	<size>(3,3)</size>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>0.8</fillPercent>
-    <blockLight>true</blockLight>
-    <canOverlapZones>false</canOverlapZones>
-    <statBases>
-      <MaxHitPoints>1200</MaxHitPoints>
-      <WorkToBuild>3500</WorkToBuild>
-      <Flammability>0.7</Flammability>
-      <Beauty>-2</Beauty>
-    </statBases>
-    <costList>
-      <Steel>100</Steel>
-	  <Plasteel>25</Plasteel>
-	  <ComponentSpacer>2</ComponentSpacer>
-	  <ComponentIndustrial>2</ComponentIndustrial>
-    </costList>
-    <comps>
-      <li Class="CompProperties_ShipHeat">
-        <compClass>CompShipHeatSink</compClass>
-		<heatCapacity>120</heatCapacity>
-		<heatVentTick>200</heatVentTick>
-      </li>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTransmitter</compClass>
-        <transmitsPower>true</transmitsPower>
-      </li>
-    </comps>
-    <rotatable>false</rotatable>
-    <selectable>true</selectable>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-  
-    <constructEffect>ConstructMetal</constructEffect>
-    <tickerType>Normal</tickerType>
-   
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <solidTime>0</solidTime>
+      <fadeOutTime>0.2</fadeOutTime>
+    </mote>
   </ThingDef>
   
- 
+  
 </Defs>

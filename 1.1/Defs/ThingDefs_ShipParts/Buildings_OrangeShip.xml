@@ -27,7 +27,7 @@
 		<label>trade ship, bottom alternate</label>
 		<description>Trading ships are a fast and efficient way to connect the different communities in a Rim World. With the use of orbital trade beacons and drop pods the ship only needs to return to its base occasionally to refuel. Trading ship are usually well armed, since they are often the focus of ruthless pirates. Some of them aren't above practising a bit of piracy themselves.</description>			
 		<graphicData>
-			<texPath>Things/Building/AS_OrangeShipBottom</texPath>
+			<texPath>Things/Building/AS_OrangeShipBottomAlternate</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>Transparent</shaderType>
 			<drawSize>(14,14)</drawSize>

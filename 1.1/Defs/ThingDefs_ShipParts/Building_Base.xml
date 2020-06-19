@@ -7,17 +7,27 @@
 		<altitudeLayer>Terrain</altitudeLayer>
 		<rotatable>true</rotatable>
 		<destroyable>true</destroyable>
-		<useHitPoints>false</useHitPoints>
+		<useHitPoints>true</useHitPoints>
 		<tickerType>Normal</tickerType>
 		<selectable>true</selectable>
 		<neverOverlapFloors>true</neverOverlapFloors>
 		<blockPlants>true</blockPlants>
+		<statBases>
+			  <WorkToBuild>3500</WorkToBuild>
+			  <Mass>50</Mass>
+			  <MaxHitPoints>200</MaxHitPoints>
+			  <Flammability>0</Flammability>
+		</statBases>
 		<building>
 			<isEdifice>false</isEdifice>
 			<claimable>true</claimable>
-			<deconstructible>true</deconstructible>
+			<deconstructible>false</deconstructible>
 			<uninstallWork>3500</uninstallWork>
 		</building>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<minifiedDef>MinifiedThing</minifiedDef>
 		<comps>      
 			<li Class="CompProperties_ShipPart"/>	  
 		</comps>

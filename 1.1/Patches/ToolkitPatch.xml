@@ -10,32 +10,53 @@
 
 
 
-			<!-- Organ installing recipes == should be most animals -->
-			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallBionicAnimalStomach surgery <recipeUsers>" -->
-				<xpath>/Defs/ThingDef[@Name = "AS_ShipPartBase"]</xpath>
-				<value>
+				
+				<li Class="PatchOperationAdd">
+				
+					<xpath>/Defs/ThingDef[@Name = "AS_ShipPartBase"]</xpath>
+					<value>
 
-					 <designationCategory>ShipDesign</designationCategory>
-					
-		
-				</value>
-			</li>
+						<designationCategory>ShipDesign</designationCategory>
+
+
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
 			
-			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallBionicAnimalStomach surgery <recipeUsers>" -->
-				<xpath>/Defs/TerrainDef[defName = "AS_BlackRegolith"]</xpath>
-				<value>
+					<xpath>/Defs/TerrainDef[defName = "AS_BlackRegolith"]</xpath>
+					<value>
 
-					 <designationCategory>ShipDesign</designationCategory>
+						<designationCategory>ShipDesign</designationCategory>
+
+
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
 					
+					<xpath>/Defs/TerrainDef[defName = "AS_BioHull"]</xpath>
+					<value>
+
+						<designationCategory>ShipDesign</designationCategory>
+
+
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
 		
-				</value>
-			</li>
+					<xpath>/Defs/TerrainDef[defName = "AS_BlackTileHull"]</xpath>
+					<value>
 
-			
+						<designationCategory>ShipDesign</designationCategory>
 
 
+					</value>
+				</li>
 
-		</operations>
+
+			</operations>
 		</match>
 	</Operation>
 

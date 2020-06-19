@@ -291,6 +291,64 @@
 		<uiIconScale>0.5</uiIconScale>  
 		<size>(8,22)</size>	
 	</ThingDef>
+	
+<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_BlueShipChunkRoundSideLeft</defName>
+		<label>imperial escort ship, round side left</label>
+		<description>Imperial escort ships are designed and operated as escorts for convoys of merchant ships and other naval vessels. Even the biggest escort ships are designed for intra-system travel, and are completely incapable of interstellar travel, most of them even lacking cryptosleep facilities.</description>				
+		<graphicData>
+			<texPath>Things/Building/AS_BlueShipChunkRoundSideLeft</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(18,18)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_BlueShip</designatorDropdown>
+		<costList>
+			<Steel>100</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(6,18)</size>	
+	</ThingDef>
+	
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_BlueShipChunkRoundSideRight</defName>
+		<label>imperial escort ship, round side right</label>
+		<description>Imperial escort ships are designed and operated as escorts for convoys of merchant ships and other naval vessels. Even the biggest escort ships are designed for intra-system travel, and are completely incapable of interstellar travel, most of them even lacking cryptosleep facilities.</description>				
+		<graphicData>
+			<texPath>Things/Building/AS_BlueShipChunkRoundSideRight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(18,18)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_BlueShip</designatorDropdown>
+		<costList>
+			<Steel>100</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(6,18)</size>	
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_BlueShipChunkTopAntennasNarrow</defName>
+		<label>imperial escort ship, top narrow antennas</label>
+		<description>Imperial escort ships are designed and operated as escorts for convoys of merchant ships and other naval vessels. Even the biggest escort ships are designed for intra-system travel, and are completely incapable of interstellar travel, most of them even lacking cryptosleep facilities.</description>			
+		<graphicData>
+			<texPath>Things/Building/AS_BlueShipChunkTopAntennasNarrow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_BlueShip</designatorDropdown>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(5,7)</size>	
+	</ThingDef>
 
 
 
