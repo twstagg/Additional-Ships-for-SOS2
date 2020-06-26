@@ -2094,17 +2094,17 @@
 				<z>-10</z>
 			</li>
 			<li>
-				<shapeOrDef>ShipPartTurretSmall</shapeOrDef>
+				<shapeOrDef>ShipTurret_Plasma</shapeOrDef>
 				<x>-1</x>
 				<z>7</z>
 			</li>
 			<li>
-				<shapeOrDef>ShipPartTurretSmall</shapeOrDef>
+				<shapeOrDef>ShipTurret_Laser</shapeOrDef>
 				<x>2</x>
 				<z>7</z>
 			</li>
 			<li>
-				<shapeOrDef>ShipPartTurretLarge</shapeOrDef>
+				<shapeOrDef>ShipTurret_Kinetic_Large</shapeOrDef>
 				<x>1</x>
 				<z>10</z>
 			</li>

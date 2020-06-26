@@ -2,7 +2,7 @@
 <Defs>
 	<EnemyShipDef>
 		<defName>AS_Small_Trade_Ship</defName>
-		<label>[INSERT IN-GAME NAME HERE]</label>
+		<label>Small Trade Ship</label>
 		<combatPoints>0</combatPoints>
 		<cargoValue>0</cargoValue>
 		<parts>
@@ -1177,12 +1177,12 @@
 				<z>8</z>
 			</li>
 			<li>
-				<shapeOrDef>ShipPartTurretSmall</shapeOrDef>
+				<shapeOrDef>ShipTurret_Laser</shapeOrDef>
 				<x>2</x>
 				<z>6</z>
 			</li>
 			<li>
-				<shapeOrDef>ShipPartTurretSmall</shapeOrDef>
+				<shapeOrDef>ShipTurret_Plasma</shapeOrDef>
 				<x>2</x>
 				<z>9</z>
 			</li>

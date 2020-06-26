@@ -7590,42 +7590,42 @@
 				<z>21</z>
 			</li>
 			<li>
-				<shapeOrDef>ShipPartTurretSmall</shapeOrDef>
+				<shapeOrDef>ShipTurret_Kinetic</shapeOrDef>
 				<x>-11</x>
 				<z>44</z>
 			</li>
 			<li>
-				<shapeOrDef>ShipPartTurretSmall</shapeOrDef>
+				<shapeOrDef>ShipTurret_Kinetic</shapeOrDef>
 				<x>-6</x>
 				<z>44</z>
 			</li>
 			<li>
-				<shapeOrDef>ShipPartTurretSmall</shapeOrDef>
+				<shapeOrDef>ShipTurret_Kinetic</shapeOrDef>
 				<x>-11</x>
 				<z>42</z>
 			</li>
 			<li>
-				<shapeOrDef>ShipPartTurretSmall</shapeOrDef>
+				<shapeOrDef>ShipTurret_Laser</shapeOrDef>
 				<x>-11</x>
 				<z>40</z>
 			</li>
 			<li>
-				<shapeOrDef>ShipPartTurretSmall</shapeOrDef>
+				<shapeOrDef>ShipTurret_Laser</shapeOrDef>
 				<x>-6</x>
 				<z>40</z>
 			</li>
 			<li>
-				<shapeOrDef>ShipPartTurretSmall</shapeOrDef>
+				<shapeOrDef>ShipTurret_Plasma</shapeOrDef>
 				<x>-6</x>
 				<z>42</z>
 			</li>
 			<li>
-				<shapeOrDef>ShipPartTurretLarge</shapeOrDef>
+				<shapeOrDef>ShipTurret_Plasma_Large</shapeOrDef>
 				<x>-8</x>
 				<z>44</z>
 			</li>
 			<li>
-				<shapeOrDef>ShipPartTurretLarge</shapeOrDef>
+				<shapeOrDef>ShipTurret_Kinetic_Large</shapeOrDef>
 				<x>-8</x>
 				<z>41</z>
 			</li>

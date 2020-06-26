@@ -2,7 +2,7 @@
 <Defs>
 	<EnemyShipDef>
 		<defName>AS_Pirate_LightCraft</defName>
-		<label>pirate light craft</label>
+		<label>Pirate light craft</label>
 		<combatPoints>0</combatPoints>
 		<cargoValue>0</cargoValue>
 		<parts>
@@ -747,7 +747,7 @@
 				<z>-3</z>
 			</li>
 			<li>
-				<shapeOrDef>ShipPartTurretSmall</shapeOrDef>
+				<shapeOrDef>ShipTurret_Plasma</shapeOrDef>
 				<z>-6</z>
 			</li>
 			<li>
