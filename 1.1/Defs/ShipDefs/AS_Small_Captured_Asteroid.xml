@@ -3,8 +3,8 @@
 	<EnemyShipDef>
 		<defName>AS_Small_Captured_Asteroid</defName>
 		<label>Small Captured Asteroid</label>
-		<combatPoints>20</combatPoints>
-		<cargoValue>0</cargoValue>
+		<combatPoints>15</combatPoints>
+		<cargoValue>5</cargoValue>
 		<parts>
 			<li>
 				<shapeOrDef>Steel</shapeOrDef>

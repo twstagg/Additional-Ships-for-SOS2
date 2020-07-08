@@ -3,8 +3,8 @@
 	<EnemyShipDef>
 		<defName>AS_BioShip_Medium</defName>
 		<label>Medium Bioship</label>
-		<combatPoints>0</combatPoints>
-		<cargoValue>0</cargoValue>
+		<combatPoints>60</combatPoints>
+		<cargoValue>5</cargoValue>
 		<parts>
 			<li>
 				<shapeOrDef>Ship_Beam</shapeOrDef>

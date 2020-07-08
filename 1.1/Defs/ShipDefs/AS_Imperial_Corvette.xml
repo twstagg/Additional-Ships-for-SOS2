@@ -3,8 +3,8 @@
 	<EnemyShipDef>
 		<defName>AS_Imperial_Corvette</defName>
 		<label>Imperial Corvette</label>
-		<combatPoints>0</combatPoints>
-		<cargoValue>0</cargoValue>
+		<combatPoints>120</combatPoints>
+		<cargoValue>5</cargoValue>
 		<parts>
 			<li>
 				<shapeOrDef>AS_BlueShipChunkTopAlternate</shapeOrDef>

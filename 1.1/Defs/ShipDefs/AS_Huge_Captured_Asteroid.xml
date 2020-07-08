@@ -3,8 +3,8 @@
 	<EnemyShipDef>
 		<defName>AS_Huge_Captured_Asteroid</defName>
 		<label>Huge Captured Asteroid</label>
-		<combatPoints>0</combatPoints>
-		<cargoValue>0</cargoValue>
+		<combatPoints>150</combatPoints>
+		<cargoValue>20</cargoValue>
 		<parts>
 			<li>
 				<shapeOrDef>AS_HugeAsteroidTop</shapeOrDef>

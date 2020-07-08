@@ -9,13 +9,18 @@
    </supportedVersions>
    <packageId>sarg.alphaships</packageId>
    <modDependencies>
+		
 		<li>
-			<packageId>brrainz.harmony</packageId>
-			<displayName>Harmony</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<packageId>kentington.saveourship2</packageId>
+			<displayName>Save Our Ship 2</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1909914131</steamWorkshopUrl>
+			<downloadUrl></downloadUrl>
 		</li>
 	</modDependencies>
+	<loadAfter>
+		<li>kentington.saveourship2</li>
+		
+	</loadAfter>
 	<description>Beta
 	
 &lt;size=24&gt;Features&lt;/size&gt;

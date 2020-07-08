@@ -3,7 +3,7 @@
 	<EnemyShipDef>
 		<defName>AS_Mechanoid_Light_Ship</defName>
 		<label>Light Mechanoid Assault Craft</label>
-		<combatPoints>0</combatPoints>
+		<combatPoints>20</combatPoints>
 		<cargoValue>0</cargoValue>
 		<parts>
 			<li>

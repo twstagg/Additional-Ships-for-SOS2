@@ -3,8 +3,8 @@
 	<EnemyShipDef>
 		<defName>AS_Imperial_Cruiser</defName>
 		<label>Imperial Cruiser</label>
-		<combatPoints>0</combatPoints>
-		<cargoValue>0</cargoValue>
+		<combatPoints>250</combatPoints>
+		<cargoValue>15</cargoValue>
 		<parts>
 			<li>
 				<shapeOrDef>AS_BlueShipChunkBottomAlternate</shapeOrDef>

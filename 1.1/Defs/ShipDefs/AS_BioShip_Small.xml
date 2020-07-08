@@ -3,7 +3,7 @@
 	<EnemyShipDef>
 		<defName>AS_BioShip_Small</defName>
 		<label>Small bioship</label>
-		<combatPoints>0</combatPoints>
+		<combatPoints>10</combatPoints>
 		<cargoValue>0</cargoValue>
 		<parts>
 			<li>

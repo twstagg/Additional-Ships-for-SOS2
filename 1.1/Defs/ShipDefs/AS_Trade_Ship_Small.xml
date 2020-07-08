@@ -3,8 +3,8 @@
 	<EnemyShipDef>
 		<defName>AS_Small_Trade_Ship</defName>
 		<label>Small Trade Ship</label>
-		<combatPoints>0</combatPoints>
-		<cargoValue>0</cargoValue>
+		<combatPoints>15</combatPoints>
+		<cargoValue>5</cargoValue>
 		<parts>
 			<li>
 				<shapeOrDef>AS_OrangeShipTop</shapeOrDef>

@@ -3,8 +3,8 @@
 	<EnemyShipDef>
 		<defName>AS_Trade_Ship_Freighter</defName>
 		<label>Trade Ship Freighter</label>
-		<combatPoints>0</combatPoints>
-		<cargoValue>0</cargoValue>
+		<combatPoints>175</combatPoints>
+		<cargoValue>30</cargoValue>
 		<parts>
 			<li>
 				<shapeOrDef>AS_OrangeShipTop</shapeOrDef>

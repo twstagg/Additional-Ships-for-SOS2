@@ -12,7 +12,9 @@
 		<selectable>true</selectable>
 		<neverOverlapFloors>true</neverOverlapFloors>
 		<blockPlants>true</blockPlants>
+		<tradeability>Buyable</tradeability>
 		<statBases>
+				<MarketValue>1500</MarketValue>
 			  <WorkToBuild>3500</WorkToBuild>
 			  <Mass>50</Mass>
 			  <MaxHitPoints>200</MaxHitPoints>
@@ -25,7 +27,7 @@
 			<uninstallWork>3500</uninstallWork>
 		</building>
 		<thingCategories>
-			<li>BuildingsMisc</li>
+			<li>AS_ShipParts</li>
 		</thingCategories>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<comps>      

@@ -3,8 +3,8 @@
 	<EnemyShipDef>
 		<defName>AS_Trade_Ship_Medium</defName>
 		<label>Trade Ship Bulk Carrier</label>
-		<combatPoints>0</combatPoints>
-		<cargoValue>0</cargoValue>
+		<combatPoints>100</combatPoints>
+		<cargoValue>20</cargoValue>
 		<parts>
 			<li>
 				<shapeOrDef>AS_OrangeShipTop</shapeOrDef>

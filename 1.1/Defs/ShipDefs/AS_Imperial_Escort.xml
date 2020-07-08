@@ -3,7 +3,7 @@
 	<EnemyShipDef>
 		<defName>AS_Imperial_Escort</defName>
 		<label>Imperial Escort</label>
-		<combatPoints>0</combatPoints>
+		<combatPoints>15</combatPoints>
 		<cargoValue>0</cargoValue>
 		<parts>
 			<li>

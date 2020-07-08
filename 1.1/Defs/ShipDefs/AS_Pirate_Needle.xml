@@ -3,8 +3,8 @@
 	<EnemyShipDef>
 		<defName>AS_Pirate_Needle</defName>
 		<label>Pirate Needle Class</label>
-		<combatPoints>0</combatPoints>
-		<cargoValue>0</cargoValue>
+		<combatPoints>100</combatPoints>
+		<cargoValue>10</cargoValue>
 		<parts>
 			<li>
 				<shapeOrDef>AS_GreyShipChunkTopPointy</shapeOrDef>

@@ -3,8 +3,8 @@
 	<EnemyShipDef>
 		<defName>AS_Mechanoid_Large_Ship</defName>
 		<label>Mechanoid Dreadnought</label>
-		<combatPoints>0</combatPoints>
-		<cargoValue>0</cargoValue>
+		<combatPoints>300</combatPoints>
+		<cargoValue>30</cargoValue>
 		<parts>
 			<li>
 				<shapeOrDef>Ship_BeamMech</shapeOrDef>
