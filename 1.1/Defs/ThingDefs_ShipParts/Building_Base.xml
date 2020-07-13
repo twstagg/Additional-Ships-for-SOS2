@@ -17,7 +17,7 @@
 				<MarketValue>1500</MarketValue>
 			  <WorkToBuild>3500</WorkToBuild>
 			  <Mass>50</Mass>
-			  <MaxHitPoints>200</MaxHitPoints>
+			  <MaxHitPoints>1500</MaxHitPoints>
 			  <Flammability>0</Flammability>
 		</statBases>
 		<building>
