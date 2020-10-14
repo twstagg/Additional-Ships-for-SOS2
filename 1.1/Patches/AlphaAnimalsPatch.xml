@@ -179,26 +179,7 @@
 				
 				
 				
-				<li Class="PatchOperationAdd"> 
-					<xpath>/Defs/BiomeDef[defName = "OuterSpaceBiome"]/wildAnimals</xpath>
-					<value>
-
-						<AA_Skyeel>1</AA_Skyeel>
-
-
-					</value>
-				</li>
 				
-				<li Class="PatchOperationReplace"> 
-					<xpath>/Defs/BiomeDef[defName = "OuterSpaceBiome"]/animalDensity</xpath>
-					<value>
-
-						<animalDensity>1</animalDensity>
-
-
-					</value>
-				</li>
-
 
 
 
