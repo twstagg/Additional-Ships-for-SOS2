@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Save Our Ship Creation Kit</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+
+				
+				<li Class="PatchOperationAdd">
+				
+					<xpath>/Defs/ThingDef[@Name = "AS_ShipPartBase"]</xpath>
+					<value>
+
+						<designationCategory>ShipDesign</designationCategory>
+
+
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+			
+					<xpath>/Defs/TerrainDef[defName = "AS_BlackRegolith"]</xpath>
+					<value>
+
+						<designationCategory>ShipDesign</designationCategory>
+
+
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					
+					<xpath>/Defs/TerrainDef[defName = "AS_BioHull"]</xpath>
+					<value>
+
+						<designationCategory>ShipDesign</designationCategory>
+
+
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+		
+					<xpath>/Defs/TerrainDef[defName = "AS_BlackTileHull"]</xpath>
+					<value>
+
+						<designationCategory>ShipDesign</designationCategory>
+
+
+					</value>
+				</li>
+
+
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

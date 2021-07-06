@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TraderKindDef>
+    <defName>AS_ShipParts</defName>
+	    <label>Ship Parts Trader</label>
+		<orbital>true</orbital>
+
+    <stockGenerators>
+      <li Class="StockGenerator_Category">
+        <categoryDef>AS_ShipParts</categoryDef>
+        <thingDefCountRange>4~8</thingDefCountRange>
+        <totalPriceRange>1000~10000</totalPriceRange>
+      </li>
+     
+    </stockGenerators>
+  </TraderKindDef>
+
+</Defs>

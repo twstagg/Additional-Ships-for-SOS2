@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+    <ThingCategoryDef>
+      <defName>AS_ShipParts</defName>
+      <label>ship parts</label>
+      <parent>BuildingsMisc</parent>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+      <iconPath>Things/Building/AS_ArchotechHeatsink</iconPath>
+    </ThingCategoryDef>
+	
+
+
+</Defs>

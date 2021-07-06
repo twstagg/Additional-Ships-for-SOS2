@@ -6,6 +6,7 @@
     
       <li>1.1</li>
 	    <li>1.2</li>
+		<li>1.3</li>
 	  
    </supportedVersions>
    <packageId>sarg.alphaships</packageId>
@@ -42,6 +43,7 @@ Thanks to Thain and Kentington for SoS2 and for their help with this mod.
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v1.1: Updated for Rimworld 1.3 (06/07/21)
 v1.0: Release version (12/07/20)
 v0.1: Prerelease
 
