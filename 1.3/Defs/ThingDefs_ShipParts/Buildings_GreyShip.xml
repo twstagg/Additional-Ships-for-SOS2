@@ -10,7 +10,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_GreyShipChunkTop</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(7,7)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_GreyShip</designatorDropdown>
@@ -30,7 +30,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_GreyShipChunkTopPointy</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(17,17)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_GreyShip</designatorDropdown>
@@ -50,7 +50,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_GreyShipChukWingAlternateLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(22,22)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_GreyShip</designatorDropdown>
@@ -69,7 +69,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_GreyShipChukWingAlternateRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(22,22)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_GreyShip</designatorDropdown>
@@ -89,7 +89,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_GreyShipChukWingLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(22,22)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_GreyShip</designatorDropdown>
@@ -108,7 +108,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_GreyShipChukWingRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(22,22)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_GreyShip</designatorDropdown>
@@ -131,7 +131,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_GreyShipChunkBottom</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(12,12)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_GreyShip</designatorDropdown>
@@ -151,7 +151,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_GreyShipChunkSideLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(12,12)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_GreyShip</designatorDropdown>
@@ -171,7 +171,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_GreyShipChunkSideRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(12,12)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_GreyShip</designatorDropdown>

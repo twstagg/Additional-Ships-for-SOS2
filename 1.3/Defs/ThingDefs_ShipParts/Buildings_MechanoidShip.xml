@@ -8,7 +8,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_MechanoidShipTop</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(17,17)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_MechanoidShip</designatorDropdown>
@@ -28,7 +28,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_MechanoidShipBottomLong</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(25,25)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_MechanoidShip</designatorDropdown>
@@ -48,7 +48,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_MechanoidShipBottom</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(17,17)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_MechanoidShip</designatorDropdown>
@@ -70,7 +70,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_MechanoidWingLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(20,20)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_MechanoidShip</designatorDropdown>
@@ -90,7 +90,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_MechanoidWingRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(20,20)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_MechanoidShip</designatorDropdown>
@@ -110,7 +110,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_MechanoidSideLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(22,22)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_MechanoidShip</designatorDropdown>
@@ -130,7 +130,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_MechanoidSideRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(22,22)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_MechanoidShip</designatorDropdown>
@@ -150,7 +150,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_MechanoidTankLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(22,22)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_MechanoidShip</designatorDropdown>
@@ -170,7 +170,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_MechanoidTankRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(22,22)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_MechanoidShip</designatorDropdown>

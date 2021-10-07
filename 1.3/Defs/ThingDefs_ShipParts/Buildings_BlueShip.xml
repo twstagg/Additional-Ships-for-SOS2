@@ -10,7 +10,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_BlueShipChunkBottom</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(26,26)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_BlueShip</designatorDropdown>
@@ -29,7 +29,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_BlueShipChunkBottom2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(25,25)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_BlueShip</designatorDropdown>
@@ -48,7 +48,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_BlueShipChunkRound</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(11,11)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_BlueShip</designatorDropdown>
@@ -69,7 +69,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_BlueShipChunkSideLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(22,22)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_BlueShip</designatorDropdown>
@@ -88,7 +88,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_BlueShipChunkSideRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(22,22)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_BlueShip</designatorDropdown>
@@ -107,7 +107,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_BlueShipChunkSmallSideLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(12,12)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_BlueShip</designatorDropdown>
@@ -126,7 +126,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_BlueShipChunkSmallSideRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(12,12)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_BlueShip</designatorDropdown>
@@ -145,7 +145,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_BlueShipChunkTop</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(7,7)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_BlueShip</designatorDropdown>
@@ -166,7 +166,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_BlueShipChunkTopAlternate</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(7,7)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_BlueShip</designatorDropdown>
@@ -185,7 +185,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_BlueShipChunkTopAntennas</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(15,15)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_BlueShip</designatorDropdown>
@@ -204,7 +204,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_BlueShipChunkTopPointy</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(17,17)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_BlueShip</designatorDropdown>
@@ -223,7 +223,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_BlueShipChunkSmallWingLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(22,22)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_BlueShip</designatorDropdown>
@@ -242,7 +242,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_BlueShipChunkSmallWingRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(22,22)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_BlueShip</designatorDropdown>
@@ -261,7 +261,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_BlueShipChunkWingLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(22,22)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_BlueShip</designatorDropdown>
@@ -280,7 +280,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_BlueShipChunkWingRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(22,22)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_BlueShip</designatorDropdown>
@@ -299,7 +299,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_BlueShipChunkRoundSideLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(18,18)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_BlueShip</designatorDropdown>
@@ -318,7 +318,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_BlueShipChunkRoundSideRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(18,18)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_BlueShip</designatorDropdown>
@@ -338,7 +338,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_BlueShipChunkTopAntennasNarrow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(7,7)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_BlueShip</designatorDropdown>

@@ -10,7 +10,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_OrangeShipBottom</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(14,14)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_OrangeShip</designatorDropdown>
@@ -29,7 +29,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_OrangeShipBottomAlternate</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(14,14)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_OrangeShip</designatorDropdown>
@@ -48,7 +48,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_OrangeShipTop</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(28,28)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_OrangeShip</designatorDropdown>
@@ -67,7 +67,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_OrangeShipTanksLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(10,10)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_OrangeShip</designatorDropdown>
@@ -86,7 +86,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_OrangeShipTanksRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(10,10)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_OrangeShip</designatorDropdown>
@@ -105,7 +105,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_OrangeShipLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(8,8)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_OrangeShip</designatorDropdown>
@@ -124,7 +124,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_OrangeShipRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(8,8)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_OrangeShip</designatorDropdown>

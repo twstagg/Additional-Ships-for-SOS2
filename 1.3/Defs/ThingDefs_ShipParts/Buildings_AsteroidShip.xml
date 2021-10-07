@@ -10,7 +10,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_AsteroidChunk</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			
 			<drawSize>(12,12)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
@@ -29,7 +29,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_AsteroidChunkDown</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			
 			<drawSize>(12,12)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
@@ -48,7 +48,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_AsteroidChunkReactor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			
 			<drawSize>(12,12)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
@@ -67,7 +67,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_AsteroidChunkTop</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			
 			<drawSize>(12,12)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
@@ -86,7 +86,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_AsteroidChunkBigTop</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			
 			<drawSize>(12,12)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
@@ -105,7 +105,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_AsteroidChunkBigSide</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			
 			<drawSize>(13,13)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
@@ -124,7 +124,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_AsteroidChunkBigBottom</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			
 			<drawSize>(12,12)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
@@ -143,7 +143,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_AsteroidChunkBigReactors</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			
 			<drawSize>(13,13)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
@@ -163,7 +163,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_HugeAsteroidTop</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			
 			<drawSize>(28,28)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
@@ -183,7 +183,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_HugeAsteroidBottom</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			
 			<drawSize>(28,28)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
@@ -203,7 +203,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_HugeAsteroidLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(15,15)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>
@@ -223,7 +223,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_HugeAsteroidRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(15,15)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_CapturedAsteroid</designatorDropdown>

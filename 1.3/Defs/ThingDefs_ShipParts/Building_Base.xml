@@ -13,6 +13,7 @@
 		<neverOverlapFloors>true</neverOverlapFloors>
 		<blockPlants>true</blockPlants>
 		<tradeability>Buyable</tradeability>
+		<clearBuildingArea>false</clearBuildingArea>
 		<statBases>
 				<MarketValue>1500</MarketValue>
 			  <WorkToBuild>3500</WorkToBuild>

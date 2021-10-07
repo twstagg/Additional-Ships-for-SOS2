@@ -10,7 +10,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_PurpleShipChunkBottom</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(21,21)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_PurpleBioship</designatorDropdown>
@@ -29,7 +29,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_PurpleShipChunkBottomPointy</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(21,21)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_PurpleBioship</designatorDropdown>
@@ -48,7 +48,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_PurpleShipChunkSideLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(12,12)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_PurpleBioship</designatorDropdown>
@@ -67,7 +67,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_PurpleShipChunkSideRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(12,12)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_PurpleBioship</designatorDropdown>
@@ -86,7 +86,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_PurpleShipChunkTop</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(13,13)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_PurpleBioship</designatorDropdown>
@@ -105,7 +105,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_PurpleShipChunkTopLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(12,12)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_PurpleBioship</designatorDropdown>
@@ -124,7 +124,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_PurpleShipChunkTopRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(12,12)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_PurpleBioship</designatorDropdown>
@@ -143,7 +143,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_PurpleShipChunkWingLeft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(12,12)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_PurpleBioship</designatorDropdown>
@@ -162,7 +162,7 @@
 		<graphicData>
 			<texPath>Things/Building/AS_PurpleShipChunkWingRight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>Transparent</shaderType>
+			 
 			<drawSize>(12,12)</drawSize>
 		</graphicData>
 		<designatorDropdown>AS_PurpleBioship</designatorDropdown>
