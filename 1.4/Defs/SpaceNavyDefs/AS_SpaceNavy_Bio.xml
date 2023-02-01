@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <SpaceNavyDef ParentName="SpaceNavy">
+        <defName>AS_SpaceNavy_Bio</defName>
+        <label>BioShip</label>
+		<bountyHunts>false</bountyHunts>
+        <enemyShipDefs>
+            <li>AS_BioShip_Huge</li>
+            <li>AS_BioShip_Medium</li>
+            <li>AS_BioShip_Small</li>
+        </enemyShipDefs>
+    </SpaceNavyDef>
+</Defs>

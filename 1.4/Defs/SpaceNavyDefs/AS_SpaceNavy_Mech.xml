@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <SpaceNavyDef ParentName="SpaceNavy">
+        <defName>AS_SpaceNavy_Mech</defName>
+        <label>Mechanoids</label>
+        <factionDefs>
+            <li>Mechanoid</li>
+		</factionDefs>
+		<bountyHunts>false</bountyHunts>
+        <crewDef>Mech_Pikeman</crewDef>
+        <marineDef>Mech_Scyther</marineDef>
+        <marineHeavyDef>Mech_Lancer</marineHeavyDef>
+        <enemyShipDefs>
+            <li>AS_Mechanoid_Large_Ship</li>
+            <li>AS_Mechanoid_Light_Ship</li>
+            <li>AS_Mechanoid_Medium_Ship</li>
+        </enemyShipDefs>
+    </SpaceNavyDef>
+</Defs>

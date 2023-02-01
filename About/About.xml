@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Alpha Ships</name>
-	<author>Sarg Bjornson</author>
+	<name>Additional Ships (for SOS2)</name>
+	<author>Sarg Bjornson, twsta</author>
 	<supportedVersions>
-    
-      <li>1.1</li>
+    	<li>1.1</li>
 	    <li>1.2</li>
 		<li>1.3</li>
-	  
+		<li>1.4</li>  
    </supportedVersions>
-   <packageId>sarg.alphaships</packageId>
+   <packageId>twsta.additionalships4sos2</packageId>
    <modDependencies>
-		
 		<li>
 			<packageId>kentington.saveourship2</packageId>
 			<displayName>Save Our Ship 2</displayName>
@@ -21,33 +19,30 @@
 	</modDependencies>
 	<loadAfter>
 		<li>kentington.saveourship2</li>
-		
 	</loadAfter>
 	<description>Spice up your Save Our Ship 2 spaceships with modular pieces!
-	
-&lt;size=24&gt;Features&lt;/size&gt;
 
-Alpha Ships adds 64 new modular spaceship parts that you can add to your spaceships to customize them in thousands of combinations. These spaceship pieces can be scavanged from random space combat encounters or acquired at a hefty price from the new Ship Parts Trader orbital merchant.
+				&lt;size=24&gt;Features&lt;/size&gt;
 
-&lt;size=24&gt;Issues&lt;/size&gt;
+				Additional Ships adds 64 new modular spaceship parts that you can add to your spaceships to customize them in thousands of combinations. These spaceship pieces can be scavanged from random space combat encounters or acquired at a hefty price from the new Ship Parts Trader orbital merchant.
 
-There should be none.
+				&lt;size=24&gt;Issues&lt;/size&gt;
 
-&lt;size=24&gt;Compatibility&lt;/size&gt;
+				There should be none.
 
-Mod should be compatible with everything. It obviously needs Save Our Ship 2 to work. It DOESN'T NEED Alpha Animals, though some will appear in space encounters if you have both mods active.
+				&lt;size=24&gt;Compatibility&lt;/size&gt;
 
-&lt;size=24&gt;Credit&lt;/size&gt;
+				Mod should be compatible with everything. It obviously needs Save Our Ship 2 to work. It DOESN'T NEED Alpha Animals, though some will appear in space encounters if you have both mods active.
 
-Thanks to Thain and Kentington for SoS2 and for their help with this mod.
+				&lt;size=24&gt;Credit&lt;/size&gt;
 
-&lt;size=24&gt;Changelog&lt;/size&gt;
+				Thanks to Thain and Kentington for SoS2 and for their help with this mod. Thanks to Sarg for allowing me to continue this mod in his stead.
 
-v1.1: Updated for Rimworld 1.3 (06/07/21)
-v1.0: Release version (12/07/20)
-v0.1: Prerelease
+				&lt;size=24&gt;Changelog&lt;/size&gt;
 
-	
-
+				v1.2: Updated for Rimworld 1.4 and SOS2 Experimental (01/18/23)
+				v1.1: Updated for Rimworld 1.3 (06/07/21)
+				v1.0: Release version (12/07/20)
+				v0.1: Prerelease
 	</description>
 </ModMetaData>

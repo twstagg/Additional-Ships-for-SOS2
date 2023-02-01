@@ -1,0 +1,170 @@
+<Defs>
+
+  
+  <ThingDef ParentName="BaseShipTurretBuilding">
+    <defName>AS_ShipTurret_Bio</defName>
+    <label>bio turret</label>
+    <description>A starship turret that fires a dangerous bio-engineered capsule. While it isn't very damaging to artificial structures, it will quickly poison and corrupt any organic matter it touches.\n\nWill vent heat to the surrounding room if no heatsink capacity is available.</description>
+    <graphicData>
+      <texPath>Things/Building/AS_HardpointPurple</texPath>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_ShipHeat">
+        <compClass>CompShipHeatSource</compClass>
+		<heatPerPulse>7</heatPerPulse>
+		<energyToFire>300</energyToFire>
+		<maxRange>40</maxRange>
+		<projectileSpeed>10</projectileSpeed>
+		<pointDefense>false</pointDefense>
+        <singleFireSound>ShipCombatLaser</singleFireSound>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>140</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <building>
+      <turretGunDef>AS_ShipTurret_BioTop</turretGunDef>
+      <buildingTags>
+      </buildingTags>
+      <turretBurstWarmupTime>0.5</turretBurstWarmupTime>
+      <turretBurstCooldownTime>25.0</turretBurstCooldownTime>
+    </building>
+    <costList>
+	  <Steel>80</Steel>
+      <Uranium>20</Uranium>
+	  <Plasteel>80</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+  <uiIconPath>Things/Building/AS_TurretBio_MenuIcon</uiIconPath>
+    <researchPrerequisites>
+      <li>ShipTurretLaser</li>
+    </researchPrerequisites>
+    <altitudeLayer>WorldClipper</altitudeLayer>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseShipArtilleryWeapon">
+    <defName>AS_ShipTurret_BioTop</defName>
+    <label>bio cannon</label>
+    <description>Bio cannon. Fires a dangerous bio-engineered capsule.</description>
+    <graphicData>
+      <texPath>Things/Building/AS_TurretBio</texPath>
+    </graphicData>
+    <weaponTags>
+    </weaponTags>
+    <verbs>
+      <li>
+        <label>shoot laser</label>
+        <verbClass>Verb_LaunchProjectileShip</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>12.9</range>
+        <warmupTime>0</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <burstShotCount>10</burstShotCount>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <requireLineOfSight>false</requireLineOfSight>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>AS_Bullet_Fake_Bio</defaultProjectile>
+        <spawnDef>AS_Proj_ShipTurretBio</spawnDef>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <comps>
+    </comps>
+    <building>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>AS_Bullet_Fake_Bio</defName>
+    <label>bio capsule</label>
+    <graphicData>
+      <texPath>Things/Projectile/AS_BioProjectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <thingClass>Bullet</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <speed>100</speed>
+      <explosionRadius>0</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode></soundExplode>
+      <soundImpactAnticipate></soundImpactAnticipate>
+      <soundAmbient></soundAmbient>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>AS_Proj_ShipTurretBio</defName>
+    <label>bio capsule</label>
+    <thingClass>Projectile_ExplosiveShipCombat</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/AS_BioProjectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <projectile>
+      <explosionRadius>6.9</explosionRadius>
+      <damageDef>AS_ShipBioSmall</damageDef>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+  
+<DamageDef Name="AS_ShipBioSmall">
+    <defName>AS_ShipBioSmall</defName>
+    <label>bio</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <externalViolence>true</externalViolence>
+    <isExplosive>true</isExplosive>
+    <deathMessage>{0} has been corroded by a toxic bio-weapon.</deathMessage>
+    <hediff>Burn</hediff>
+    <hediffSolid>Burn</hediffSolid>
+	<additionalHediffs>
+			<li>
+				<hediff>ToxicBuildup</hediff>
+				<severityPerDamageDealt>0.04</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+			</li>
+		</additionalHediffs>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Heat</armorCategory>
+    <minDamageToFragment>15</minDamageToFragment>
+    <defaultDamage>1</defaultDamage>
+    <defaultStoppingPower>0.5</defaultStoppingPower>
+    <defaultArmorPenetration>0.10</defaultArmorPenetration>
+    <buildingDamageFactor>4</buildingDamageFactor>
+    <plantDamageFactor>4</plantDamageFactor>
+    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+    <explosionHeatEnergyPerCell>25</explosionHeatEnergyPerCell>
+    <explosionCellMote>AS_Mote_BlastBio</explosionCellMote>
+    <explosionColorCenter>(1, 0.5, 0.3)</explosionColorCenter>
+    <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
+    <soundExplosion>Explosion_Bomb</soundExplosion>
+    <combatLogRules>Damage_Bomb</combatLogRules>
+  </DamageDef>
+  
+    <ThingDef ParentName="MoteBase">
+    <defName>AS_Mote_BlastBio</defName>
+    <graphicData>
+      <texPath>Things/Mote/AS_BioBlast</texPath>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <solidTime>0</solidTime>
+      <fadeOutTime>0.2</fadeOutTime>
+    </mote>
+  </ThingDef>
+  
+  
+</Defs>

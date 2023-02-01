@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ThingDef ParentName="BuildingBase" Abstract="True" Name="AS_ShipPartBase">
+		<thingClass>Building</thingClass>
+		<altitudeLayer>Terrain</altitudeLayer>
+		<rotatable>true</rotatable>
+		<destroyable>true</destroyable>
+		<useHitPoints>true</useHitPoints>
+		<tickerType>Normal</tickerType>
+		<selectable>true</selectable>
+		<neverOverlapFloors>true</neverOverlapFloors>
+		<blockPlants>true</blockPlants>
+		<tradeability>Buyable</tradeability>
+		<clearBuildingArea>false</clearBuildingArea>
+		<statBases>
+				<MarketValue>1500</MarketValue>
+			  <WorkToBuild>3500</WorkToBuild>
+			  <Mass>50</Mass>
+			  <MaxHitPoints>1500</MaxHitPoints>
+			  <Flammability>0</Flammability>
+		</statBases>
+		<building>
+			<isEdifice>false</isEdifice>
+			<claimable>true</claimable>
+			<deconstructible>false</deconstructible>
+			<uninstallWork>3500</uninstallWork>
+		</building>
+		<thingCategories>
+			<li>AS_ShipParts</li>
+		</thingCategories>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<comps>      
+			<li Class="CompProperties_ShipPart"/>	  
+		</comps>
+	</ThingDef>
+	
+</Defs>

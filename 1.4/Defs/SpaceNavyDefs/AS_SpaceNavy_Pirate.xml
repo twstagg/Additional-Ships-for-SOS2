@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <SpaceNavyDef ParentName="SpaceNavy">
+        <defName>AS_SpaceNavy_Pirate</defName>
+        <label>Pirates</label>
+        <factionDefs>
+            <li>Pirate</li>
+		</factionDefs>
+		<colorPrimary>RGBA(0.196, 0.196, 0.196, 1.000)</colorPrimary>
+		<colorSecondary>RGBA(0.624, 0.314, 0.314, 1.000)</colorSecondary>
+        <enemyShipDefs>
+            <li>AS_Pirate_Devastator</li>
+            <li>AS_Pirate_LightCraft</li>
+            <li>AS_Pirate_Needle</li>
+        </enemyShipDefs>
+    </SpaceNavyDef>
+</Defs>

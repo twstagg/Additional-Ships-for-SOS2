@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_MechanoidShipTop</defName>
+		<label>mechanoid ship, top</label>
+		<description>Strange mechanoid ships roam through the planet's orbit. For what purpose is a mystery. One thing is clear, they are extremely hostile to human life and won't hesitate to attack any spaceship crossing their path.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_MechanoidShipTop</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(17,17)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_MechanoidShip</designatorDropdown>
+		<costList>
+			<Plasteel>50</Plasteel>
+			<Steel>20</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(17,8)</size>	
+	</ThingDef>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_MechanoidShipBottomLong</defName>
+		<label>mechanoid ship, bottom alternate</label>
+		<description>Strange mechanoid ships roam through the planet's orbit. For what purpose is a mystery. One thing is clear, they are extremely hostile to human life and won't hesitate to attack any spaceship crossing their path.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_MechanoidShipBottomLong</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(25,25)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_MechanoidShip</designatorDropdown>
+		<costList>
+			<Plasteel>50</Plasteel>
+			<Steel>20</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(17,25)</size>	
+	</ThingDef>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_MechanoidShipBottom</defName>
+		<label>mechanoid ship, bottom</label>
+		<description>Strange mechanoid ships roam through the planet's orbit. For what purpose is a mystery. One thing is clear, they are extremely hostile to human life and won't hesitate to attack any spaceship crossing their path.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_MechanoidShipBottom</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(17,17)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_MechanoidShip</designatorDropdown>
+		<costList>
+			<Plasteel>50</Plasteel>
+			<Steel>20</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(17,8)</size>	
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_MechanoidWingLeft</defName>
+		<label>mechanoid ship, wing left</label>
+		<description>Strange mechanoid ships roam through the planet's orbit. For what purpose is a mystery. One thing is clear, they are extremely hostile to human life and won't hesitate to attack any spaceship crossing their path.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_MechanoidWingLeft</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(20,20)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_MechanoidShip</designatorDropdown>
+		<costList>
+			<Plasteel>50</Plasteel>
+			<Steel>20</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(12,20)</size>	
+	</ThingDef>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_MechanoidWingRight</defName>
+		<label>mechanoid ship, wing right</label>
+		<description>Strange mechanoid ships roam through the planet's orbit. For what purpose is a mystery. One thing is clear, they are extremely hostile to human life and won't hesitate to attack any spaceship crossing their path.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_MechanoidWingRight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(20,20)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_MechanoidShip</designatorDropdown>
+		<costList>
+			<Plasteel>50</Plasteel>
+			<Steel>20</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(12,20)</size>	
+	</ThingDef>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_MechanoidSideLeft</defName>
+		<label>mechanoid ship, side left</label>
+		<description>Strange mechanoid ships roam through the planet's orbit. For what purpose is a mystery. One thing is clear, they are extremely hostile to human life and won't hesitate to attack any spaceship crossing their path.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_MechanoidSideLeft</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(22,22)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_MechanoidShip</designatorDropdown>
+		<costList>
+			<Plasteel>50</Plasteel>
+			<Steel>30</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(8,22)</size>	
+	</ThingDef>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_MechanoidSideRight</defName>
+		<label>mechanoid ship, side right</label>
+		<description>Strange mechanoid ships roam through the planet's orbit. For what purpose is a mystery. One thing is clear, they are extremely hostile to human life and won't hesitate to attack any spaceship crossing their path.</description>			
+		<graphicData>
+			<texPath>Things/Building/AS_MechanoidSideRight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(22,22)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_MechanoidShip</designatorDropdown>
+		<costList>
+			<Plasteel>50</Plasteel>
+			<Steel>30</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(8,22)</size>	
+	</ThingDef>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_MechanoidTankLeft</defName>
+		<label>mechanoid ship, tank left</label>
+		<description>Strange mechanoid ships roam through the planet's orbit. For what purpose is a mystery. One thing is clear, they are extremely hostile to human life and won't hesitate to attack any spaceship crossing their path.</description>			
+		<graphicData>
+			<texPath>Things/Building/AS_MechanoidTankLeft</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(22,22)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_MechanoidShip</designatorDropdown>
+		<costList>
+			<Plasteel>30</Plasteel>
+			<Steel>20</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(8,22)</size>	
+	</ThingDef>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_MechanoidTankRight</defName>
+		<label>mechanoid ship, tank right</label>
+		<description>Strange mechanoid ships roam through the planet's orbit. For what purpose is a mystery. One thing is clear, they are extremely hostile to human life and won't hesitate to attack any spaceship crossing their path.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_MechanoidTankRight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(22,22)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_MechanoidShip</designatorDropdown>
+		<costList>
+			<Plasteel>30</Plasteel>
+			<Steel>20</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(8,22)</size>	
+	</ThingDef>
+
+
+
+
+
+</Defs>

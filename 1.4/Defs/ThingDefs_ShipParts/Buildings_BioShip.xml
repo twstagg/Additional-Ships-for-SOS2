@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_PurpleShipChunkBottom</defName>
+		<label>bioship, bottom</label>
+		<description>An experimental organic bioship. These ships are artificially grown around a metallic frame, and are quite resilient to damage.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_PurpleShipChunkBottom</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(21,21)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_PurpleBioship</designatorDropdown>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(15,21)</size>	
+	</ThingDef>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_PurpleShipChunkBottomPointy</defName>
+		<label>bioship, bottom alternate</label>
+		<description>An experimental organic bioship. These ships are artificially grown around a metallic frame, and are quite resilient to damage.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_PurpleShipChunkBottomPointy</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(21,21)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_PurpleBioship</designatorDropdown>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(15,21)</size>	
+	</ThingDef>
+
+		<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_PurpleShipChunkSideLeft</defName>
+		<label>bioship, side left</label>
+		<description>An experimental organic bioship. These ships are artificially grown around a metallic frame, and are quite resilient to damage.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_PurpleShipChunkSideLeft</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(12,12)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_PurpleBioship</designatorDropdown>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(5,12)</size>	
+	</ThingDef>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_PurpleShipChunkSideRight</defName>
+		<label>bioship, side right</label>
+		<description>An experimental organic bioship. These ships are artificially grown around a metallic frame, and are quite resilient to damage.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_PurpleShipChunkSideRight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(12,12)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_PurpleBioship</designatorDropdown>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(5,12)</size>	
+	</ThingDef>
+	
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_PurpleShipChunkTop</defName>
+		<label>bioship, top</label>
+		<description>An experimental organic bioship. These ships are artificially grown around a metallic frame, and are quite resilient to damage.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_PurpleShipChunkTop</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(13,13)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_PurpleBioship</designatorDropdown>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(13,13)</size>	
+	</ThingDef>
+
+<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_PurpleShipChunkTopLeft</defName>
+		<label>bioship, top left</label>
+		<description>An experimental organic bioship. These ships are artificially grown around a metallic frame, and are quite resilient to damage.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_PurpleShipChunkTopLeft</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(12,12)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_PurpleBioship</designatorDropdown>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(7,12)</size>	
+	</ThingDef>
+	
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_PurpleShipChunkTopRight</defName>
+		<label>bioship, top right</label>
+		<description>An experimental organic bioship. These ships are artificially grown around a metallic frame, and are quite resilient to damage.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_PurpleShipChunkTopRight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(12,12)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_PurpleBioship</designatorDropdown>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(7,12)</size>	
+	</ThingDef>
+	
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_PurpleShipChunkWingLeft</defName>
+		<label>bioship, wing left</label>
+		<description>An experimental organic bioship. These ships are artificially grown around a metallic frame, and are quite resilient to damage.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_PurpleShipChunkWingLeft</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(12,12)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_PurpleBioship</designatorDropdown>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(7,12)</size>	
+	</ThingDef>
+	
+		<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_PurpleShipChunkWingRight</defName>
+		<label>bioship, wing right</label>
+		<description>An experimental organic bioship. These ships are artificially grown around a metallic frame, and are quite resilient to damage.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_PurpleShipChunkWingRight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(12,12)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_PurpleBioship</designatorDropdown>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(7,12)</size>	
+	</ThingDef>
+
+</Defs>

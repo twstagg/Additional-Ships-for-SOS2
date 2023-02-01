@@ -1,0 +1,133 @@
+<Defs>
+
+  
+ 
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>AS_ArchotechHeatsink</defName>
+    <label>vanometric heatsink</label>
+    <description>A mechanoid heatsink for storing excess heat from weapons fire. Quickly bleeds heat into the surrounding room; will not function in vacuum.</description>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+   
+    <graphicData>
+      <texPath>Things/Building/AS_ArchotechHeatsink</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <building>
+			
+			<claimable>true</claimable>
+			
+			<uninstallWork>3500</uninstallWork>
+		</building>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<minifiedDef>MinifiedThing</minifiedDef>
+	
+	<size>(3,3)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.8</fillPercent>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>1200</MaxHitPoints>
+	  			  <Mass>75</Mass>
+
+      <WorkToBuild>3500</WorkToBuild>
+      <Flammability>0.7</Flammability>
+      <Beauty>-2</Beauty>
+    </statBases>
+    <costList>
+      <Steel>100</Steel>
+	  <Plasteel>25</Plasteel>
+	  <ComponentSpacer>2</ComponentSpacer>
+	  <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_ShipHeat">
+        <compClass>CompShipHeatSink</compClass>
+		<heatCapacity>120</heatCapacity>
+		<heatVent>200</heatVent>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTransmitter</compClass>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+  
+    <constructEffect>ConstructMetal</constructEffect>
+    <tickerType>Normal</tickerType>
+   
+  </ThingDef>
+  
+   <ThingDef ParentName="BuildingBase">
+    <defName>AS_VanometricFoodProcessor</defName>
+    <label>vanometric food processor</label>
+    <description>Slowly generates survival meals by a complex series of chemical reactions, using atoms extracted from the air.</description>
+    <graphicData>
+      <texPath>Things/Building/AS_VanometricFoodProcessor</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+      <shadowData>
+        <volume>(1.8, 1.0, 0.2)</volume>
+        <offset>(0.0, 0.0, -0.4)</offset>
+      </shadowData>
+    </graphicData>
+    <thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <costList>
+      <Steel>200</Steel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>300</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Spawner">
+        <requiresPower>true</requiresPower>
+        <thingToSpawn>MealSurvivalPack</thingToSpawn>
+        <spawnCount>5</spawnCount>
+        <spawnIntervalRange><min>60000</min><max>60000</max></spawnIntervalRange>
+        <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+        <showMessageIfOwned>false</showMessageIfOwned>
+      </li>
+      
+    </comps>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Beauty>-10</Beauty>
+      <Mass>35</Mass>
+      <WorkToBuild>8000</WorkToBuild>
+    </statBases>
+   
+    <tickerType>Normal</tickerType>
+    <size>(3,1)</size>
+    <fillPercent>1.0</fillPercent>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <passability>Impassable</passability>
+    <rotatable>true</rotatable>
+    <canOverlapZones>false</canOverlapZones>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <tradeability>None</tradeability>
+   
+  </ThingDef>
+  
+ 
+</Defs>

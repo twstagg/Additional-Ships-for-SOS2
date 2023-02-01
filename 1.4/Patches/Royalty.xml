@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<!-- navy -->
+						<SpaceNavyDef ParentName="SpaceNavy">
+							<defName>AS_Imperial_MilitaryPolice</defName>
+							<label>Royal Imperial Military Police</label>
+							<factionDefs>
+								<li>Empire</li>
+							</factionDefs>
+							<colorPrimary>RGBA(0.624, 0.314, 0.314, 1.000)</colorPrimary>
+							<colorSecondary>RGBA(0.588, 0.612, 0.612, 1.000)</colorSecondary>
+							<enemyShipDefs>
+								<li>AS_Imperial_Corvette</li>
+								<li>AS_Imperial_Cruiser</li>
+								<li>AS_Imperial_Escort</li>
+							</enemyShipDefs>
+						</SpaceNavyDef>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/EnemyShipDef[defName="AS_Imperial_Corvette" or defName="AS_Imperial_Cruiser" or defName="AS_Imperial_Escort"]</xpath>
+					<value><navyExclusive>true</navyExclusive></value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

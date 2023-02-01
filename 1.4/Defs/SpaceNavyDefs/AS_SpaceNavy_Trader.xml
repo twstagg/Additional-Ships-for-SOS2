@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <SpaceNavyDef ParentName="SpaceNavy">
+        <defName>AS_SpaceNavy_Trader</defName>
+        <label>Trader</label>
+			<colorPrimary>RGBA(0.624, 0.314, 0.314, 1.000)</colorPrimary>
+			<colorSecondary>RGBA(0.588, 0.612, 0.612, 1.000)</colorSecondary>
+        <enemyShipDefs>
+            <li>AS_Trade_Ship_Freighter</li>
+            <li>AS_Trade_Ship_Medium</li>
+            <li>AS_Trade_Ship_Small</li>
+        </enemyShipDefs>
+    </SpaceNavyDef>
+</Defs>

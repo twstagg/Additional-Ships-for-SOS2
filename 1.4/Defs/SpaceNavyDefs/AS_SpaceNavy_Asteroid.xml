@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <SpaceNavyDef ParentName="SpaceNavy">
+        <defName>AS_SpaceNavy_Asteroid</defName>
+        <label>Captured Asteroids</label>
+        <factionDefs>
+            <li>Insect</li>
+		</factionDefs>
+		<bountyHunts>false</bountyHunts>
+        <crewDef>Astromite</crewDef>
+        <marineDef>Stellapede</marineDef>
+        <marineHeavyDef>Cosmopillar</marineHeavyDef>
+        <enemyShipDefs>
+            <li>AS_Captured_Asteroid_Huge</li>
+            <li>AS_Captured_Asteroid_Medium</li>
+            <li>AS_Captured_Asteroid_Small</li>
+        </enemyShipDefs>
+    </SpaceNavyDef>
+</Defs>

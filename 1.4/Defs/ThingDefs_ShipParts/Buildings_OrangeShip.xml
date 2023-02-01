@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_OrangeShipBottom</defName>
+		<label>trade ship, bottom</label>
+		<description>Trading ships are a fast and efficient way to connect the different communities in a Rim World. With the use of orbital trade beacons and drop pods the ship only needs to return to its base occasionally to refuel. Trading ship are usually well armed, since they are often the focus of ruthless pirates. Some of them aren't above practising a bit of piracy themselves.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_OrangeShipBottom</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(14,14)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_OrangeShip</designatorDropdown>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(10,14)</size>	
+	</ThingDef>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_OrangeShipBottomAlternate</defName>
+		<label>trade ship, bottom alternate</label>
+		<description>Trading ships are a fast and efficient way to connect the different communities in a Rim World. With the use of orbital trade beacons and drop pods the ship only needs to return to its base occasionally to refuel. Trading ship are usually well armed, since they are often the focus of ruthless pirates. Some of them aren't above practising a bit of piracy themselves.</description>			
+		<graphicData>
+			<texPath>Things/Building/AS_OrangeShipBottomAlternate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(14,14)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_OrangeShip</designatorDropdown>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(10,14)</size>	
+	</ThingDef>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_OrangeShipTop</defName>
+		<label>trade ship, top</label>
+		<description>Trading ships are a fast and efficient way to connect the different communities in a Rim World. With the use of orbital trade beacons and drop pods the ship only needs to return to its base occasionally to refuel. Trading ship are usually well armed, since they are often the focus of ruthless pirates. Some of them aren't above practising a bit of piracy themselves.</description>	
+		<graphicData>
+			<texPath>Things/Building/AS_OrangeShipTop</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(28,28)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_OrangeShip</designatorDropdown>
+		<costList>
+			<Steel>100</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(8,28)</size>	
+	</ThingDef>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_OrangeShipTanksLeft</defName>
+		<label>trade ship, tanks left</label>
+		<description>Trading ships are a fast and efficient way to connect the different communities in a Rim World. With the use of orbital trade beacons and drop pods the ship only needs to return to its base occasionally to refuel. Trading ship are usually well armed, since they are often the focus of ruthless pirates. Some of them aren't above practising a bit of piracy themselves.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_OrangeShipTanksLeft</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(10,10)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_OrangeShip</designatorDropdown>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(6,10)</size>	
+	</ThingDef>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_OrangeShipTanksRight</defName>
+		<label>trade ship, tanks right</label>
+		<description>Trading ships are a fast and efficient way to connect the different communities in a Rim World. With the use of orbital trade beacons and drop pods the ship only needs to return to its base occasionally to refuel. Trading ship are usually well armed, since they are often the focus of ruthless pirates. Some of them aren't above practising a bit of piracy themselves.</description>	
+		<graphicData>
+			<texPath>Things/Building/AS_OrangeShipTanksRight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(10,10)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_OrangeShip</designatorDropdown>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(6,10)</size>	
+	</ThingDef>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_OrangeShipLeft</defName>
+		<label>trade ship, side left</label>
+		<description>Trading ships are a fast and efficient way to connect the different communities in a Rim World. With the use of orbital trade beacons and drop pods the ship only needs to return to its base occasionally to refuel. Trading ship are usually well armed, since they are often the focus of ruthless pirates. Some of them aren't above practising a bit of piracy themselves.</description>		
+		<graphicData>
+			<texPath>Things/Building/AS_OrangeShipLeft</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(8,8)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_OrangeShip</designatorDropdown>
+		<costList>
+			<Steel>25</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(4,8)</size>	
+	</ThingDef>
+
+	<ThingDef ParentName="AS_ShipPartBase">
+		<defName>AS_OrangeShipRight</defName>
+		<label>trade ship, side right</label>
+		<description>Trading ships are a fast and efficient way to connect the different communities in a Rim World. With the use of orbital trade beacons and drop pods the ship only needs to return to its base occasionally to refuel. Trading ship are usually well armed, since they are often the focus of ruthless pirates. Some of them aren't above practising a bit of piracy themselves.</description>			
+		<graphicData>
+			<texPath>Things/Building/AS_OrangeShipRight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 
+			<drawSize>(8,8)</drawSize>
+		</graphicData>
+		<designatorDropdown>AS_OrangeShip</designatorDropdown>
+		<costList>
+			<Steel>25</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<uiIconScale>0.5</uiIconScale>  
+		<size>(4,8)</size>	
+	</ThingDef>
+
+
+
+</Defs>
